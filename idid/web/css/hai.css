@@ -1,0 +1,17 @@
+.jz{
+    width: 1500px;
+    height: 400px;
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+}
+.jjz{
+    width: 1500px;
+    height: 80px;
+    text-align: center;
+}
+body{
+    background-image: url("../img/beijing.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
