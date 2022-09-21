@@ -24,5 +24,8 @@ function testB(){
     var zhao1 = document.getElementById("zhao")
     var ps1 = document.getElementById("ps")
     if(accountPattern.test(zhao1.value) && passwordPattern.test(ps1.value)){
-        location.href = "./tiaozhuang.html"
+        return true;
+    }else{
+        return false;
+    }
 }
